@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>XaloneStore</title>
+
+        <style>
+            body {
+                background-image: url('file:///C:/Users/Ooo/Downloads/bg.jpg');
+                background-size: cover;
+                background-position: center;
+                font-family: Arial, sans-serif;
+                color: #000000;
+
+                background-position: center;
+			          background-repeat: no-repeat;
+			          background-attachment: fixed;
+
+            }
+        </style>
+
+    </head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+    <header class=p-3 style="background-color:rgb(0, 0, 0)" text-white">
+        <div class="container" style="background-color:rgb(0, 0, 0)">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="file:///C:/Users/Ooo/Downloads/XaloneStore_Logo.jpg" width="70" height="70">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              
+            </ul>
+    
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;" >Home</button>
+              <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">เติมเงิน</button>
+              <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">สินค้า</button>
+              <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">สั้งซื้อ</button>
+              <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">เกมสุ่ม</button>
+              <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">ติดต่อ</button>
+              <button type="button" class="btn btn-primary">Login/Sign-up</button>
+              </div>
+          </div>
+        </div>
+      </header>
+      <div class="row justify-content-center ">
+        <div class="col-lg-5  p-4">
+        <div class="d-flex w-100 h-100 justify-content-center align-items-center">
+        <center>
+        <img src="file:///C:/Users/Ooo/Downloads/XaloneStore_Logo_no_bg.jpg" style="max-height: 400px" class="mb-3" alt="">
+        </center>
+        </div>
+        </div>
+        <div class="col-lg-5 p-4">
+        <div class="container-fluid border p-4 bg-Dark " style="border-radius: 1vh;">
+        <div class="d-flex">
+        <h1 class="badge-7 me-2"><i class="bx bx-user-plus"></i></h1>
+        <div class="">
+        <h4 class="mb-1" style="color: rgb(255, 255, 255)";><b>XaloneStore</b></h4>
+        <h5 class="text-main" style="color: rgb(255, 255, 255)";>สมัครสมาชิก</h5>
+        </div>
+        </div>
+        <div class=" mb-2">
+        <label style="color: rgb(255, 255, 255)"; > Username</label>
+        <input type="text" class="form-control form-control  text-or" id="user" placeholder="ชื่อผู้ใช้" aria-describedby="basic-addon1">
+        </div>
+        <div class="row justify-content-between">
+        <div class="col-lg">
+        <div class=" mb-2">
+        <label style="color: rgb(255, 255, 255)";> Password</label>
+        <input type="password" id="pass" class="form-control form-control   text-or" placeholder="รหัสผ่าน" aria-describedby="basic-addon1">
+        </div>
+        </div>
+        <div class="col-lg">
+        <div class=" mb-2">
+        <label style="color: rgb(255, 255, 255)";> Confirm password</label>
+        <input type="password" id="pass2" class="form-control form-control   text-or" placeholder="รหัสผ่านอีกครั้ง" aria-describedby="basic-addon1">
+        </div>
+        </div>
+        </div>
+        <div class=" mb-3">
+        <label style="color: rgb(255, 255, 255)";>Pin ( 6 lettters )</label>
+        <input type="password" id="pin" class="form-control form-control   text-or" placeholder="รหัส 6 หลัก (เผื่อลืมรหัสผ่าน)" aria-describedby="basic-addon1">
+        </div>
+        <center class="mb-2">
+        <div id="capcha" class="g-recaptcha" data-theme="dark" style="transform: scale(1); transform-origin: 0px 0px;"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-2qjm2zdovnjw" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeTIQwfAAAAACn5PJj82lyCZMA39ZSlmWjD3J5p&amp;co=aHR0cHM6Ly9kdWNrZXlkYXJrLnhkbnoueHl6OjQ0Mw..&amp;hl=th&amp;v=DH3nyJMamEclyfe-nztbfV8S&amp;theme=dark&amp;size=normal&amp;cb=qykvzehk4qla"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+        </center>
+        <button class="btn btn-outline-success"  text-white  ps-4 pe-4  pt-2 pb-2" id="btn_regis" style="width: 100%;"><h6 class="m-0"><b>สมัครสมาชิก</b></h6></button>
+        </button>
+        <span class="text-secondary  ">มีบัญชีอยู่แล้วหรอ <b><a href="file:///C:/Users/Ooo/Downloads/XaloneStore/Login.html" class="text-main " style="text-decoration-color: var(--main);">เข้าสู่ระบบเลย!</a></b></span>
+        </div>
+        </div>
+        </div>
+        
+    <footer class=" p-2 text-center text-secondary fw-bold " style="margin-top: 6em;">
+        <div class="d-lg-flex m-auto" style="width: fit-content;">
+        <p class="m-0 mb-2 mb-lg-0" style="font-size: 14px;">© 2024 XaloneStore 
+        </p>
+        <p class="d-lg-block d-none mb-2 mb-lg-0">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+        <p class="mb-2 mb-lg-0">&nbsp;Made by <a href="https://discord.gg/EjuCJf56tc" target="_blank" class="xdnz-badge ps-3 pe-3" style="text-decoration: none;">XaloneStore</a>&nbsp;</p>
+        <p class="d-lg-block d-none mb-2 mb-lg-0">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+        <a href="https://discord.gg/EjuCJf56tc" target="_blank" class="scam-badge ps-3 pe-3" style="text-decoration: none;">
+        <i class="bx bx-shield-minus"></i>&nbsp;&nbsp;รายงานสแกม / การโกง
+        </a>
+        </div>
+        </footer>

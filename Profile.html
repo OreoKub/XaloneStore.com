@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>XaloneStore</title>
+
+        <style>
+            body {
+                background-image: url('file:///C:/Users/Ooo/Downloads/bg.jpg');
+                background-size: cover;
+                background-position: center;
+                font-family: Arial, sans-serif;
+                color: #9e9e9e;
+                background-position: center;
+			    background-repeat: no-repeat;
+			    background-attachment: fixed;
+            }
+        </style>
+
+    </head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+    <header class=p-3 style="background-color:rgb(0, 0, 0)" text-white">
+        <div class="container" style="background-color:rgb(0, 0, 0)">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="file:///C:/Users/Ooo/Downloads/XaloneStore_Logo.jpg" width="70" height="70">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              
+            </ul>
+    
+    
+            <div class="text-end">
+                <a href="file:///C:/Users/Ooo/Downloads/XaloneStore/Home.html">
+                    <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">Home</button>
+                    </a>
+      
+                    <a href="file:///C:/Users/Ooo/Downloads/XaloneStore/TopUp.html">
+                    <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">เติมเงิน</button>
+                    </a>
+      
+                    <a href="file:///C:/Users/Ooo/Downloads/XaloneStore/Category.html">
+                    <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">สินค้า</button>
+                    </a>
+      
+                    <a href="file:///C:/Users/Ooo/Downloads/XaloneStore/Order_Product.html">
+                    <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">สั้งซื้อ</button>
+                    </a>
+      
+                    <a href="file:///C:/Users/Ooo/Downloads/XaloneStore/WheelSpin.html">
+                    <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">เกมสุ่ม</button>
+                    </a>
+      
+                    <a href="file:///C:/Users/Ooo/Downloads/XaloneStore/Contect.html">
+                    <button type="button" class="btn btn-link" style="color: rgb(255, 255, 255); text-decoration: none;">ติดต่อ</button>
+                    </a>
+      
+                    <a href="file:///C:/Users/Ooo/Downloads/XaloneStore/Contect.html">
+                        <button type="button" class="btn btn-primary">โปรไฟล์</button>
+                  </a>
+              </div>
+          </div>
+        </div>
+      </header>
+
+        <body>
+            <br>
+            <br>
+            <div class="col-lg-6 rounded bg-dark m-auto p-3">
+                <div class="d-flex align-items-center mb-3">
+                <img src="file:///C:/Users/Ooo/Downloads/XaloneStore_Logo_no_bg.jpg" class="me-2" style="max-height: 70px" alt="">
+                <h5 class="bubble-main m-0" style="color: white;">โปรไฟล์ - Profile</h5>
+                </div>
+                <div class="row mb-2">
+                <div class="col-lg-4 mb-3">
+                <div class="container-fluid bg-dark border-hov rounded p-4">
+                <center>
+                    <img src="file:///C:/Users/Ooo/Downloads/Profile_Pic.png" style="height: auto ; " width="100">
+                </div>
+                <center>
+                <h5 class="font-bold text-white bubble-main  mt-2 pt-1 pb-1" style="font-size: 14px;">ยศสมาชิกทั่วไป </h5>
+                </center>
+                </div>
+                <div class="col-lg-7 pt-2 pb-4">
+                <h5 class="font-bold text-white">ชื่อผู้ใช้ : <span class="m-0 text-main">User-Name </span></h5>
+                <h5 class="font-bold text-white">ยอดเงินคงเหลือ : <span class="m-0 text-dark">0 ฿</span></h5>
+                <h5 class="font-bold text-white">ยอดการเติมเงินทั้งหมด : <span class="m-0 text-dark">0 ฿</span></h5>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-4">
+                <h5 class="font-bold">ตัวเลือกหน้าโปรไฟล์</h5>
+                <a href="?page=profile&amp;subpage=cpass" style="text-decoration: none;">
+                <div class="container-fluid    mb-2 border-hov p-2 pb-1">
+                <div class="d-flex">
+                <h5 class="text-muted mb-0" style="width: 30px;">
+                <i class="bx bx-cog"></i>
+                </h5>
+                <p class="font-bold text-white m-0">เปลี่ยนรหัสผ่าน</p>
+                </div>
+                </div>
+                </a>
+                <a href="?page=profile&amp;subpage=topuphis" style="text-decoration: none;">
+                <div class="container-fluid   mb-2 border-hov p-2 pb-1">
+                <div class="d-flex">
+                <h5 class="text-muted mb-0" style="width: 30px;">
+                <i class="bx bx-wallet"></i>
+                </h5>
+                <p class="font-bold text-white m-0">ประวัติการเติมเงิน</p>
+                </div>
+                </div>
+                </a>
+                <a href="?page=profile&amp;subpage=buyhis" style="text-decoration: none;">
+                <div class="container-fluid   mb-2 border-hov p-2 pb-1">
+                <div class="d-flex">
+                <h5 class="text-muted mb-0" style="width: 30px;">
+                <i class="bx bx-basket"></i>
+                </h5>
+                <p class="font-bold text-white m-0">ประวัติการซื้อสินค้า</p>
+                </div>
+                </div>
+                </a>
+                <a href="?page=profile&amp;subpage=iphis" style="text-decoration: none;">
+                <div class="container-fluid   mb-2 border-hov p-2 pb-1">
+                <div class="d-flex">
+                <h5 class="text-muted mb-0" style="width: 30px;">
+                <i class="bx bx-shopping-bag"></i>
+                </h5>
+                <p class="font-bold text-white m-0">ประวัติการสั่งซื้อ</p>
+                </div>
+                </div>
+                </a>
+                </div>
+                <div class="col-lg">
+                <div class="container-fluid border pb-3 rounded">
+                <h4 class="text-white mt-4 font-bold mb-0">เปลี่ยนรหัสผ่าน</h4>
+                <h6 class="text-white font-bold">Change Password</h6>
+                <div class="mb-2 mt-2">
+                <label for="exampleFormControlInput1" class="form-label text-white mb-0">รหัสผ่านเก่า</label>
+                <input type="password" class="form-control " id="o_pass" placeholder="รหัสผ่านเก่า" style="color: #000">
+                </div>
+                <div class="mb-2">
+                <label for="exampleFormControlInput1" class="form-label text-white mb-0">รหัสผ่านใหม่</label>
+                <input type="password" class="form-control " id="pass" placeholder="รหัสผ่านใหม่" style="color: #000">
+                </div>
+                <div class="mb-2">
+                <label for="exampleFormControlInput1" class="form-label text-white mb-0">รหัสผ่านใหม่อีกครั้ง</label>
+                <input type="password" class="form-control " id="pass2" placeholder="รหัสผ่านใหม่อีกครั้ง" style="color: #000">
+                </div>
+                <button id="btn_regis" class="btn btn-outline-success" style="width: 100%;">เปลี่ยนรหัสผ่าน</button>
+                </div>
+                <script type="text/javascript">
+                    $("#btn_regis").click(function(e) {
+                
+                        e.preventDefault();
+                
+                        var formData = new FormData();
+                
+                        formData.append('o_pass', $("#o_pass").val());
+                
+                        formData.append('pass', $("#pass").val());
+                
+                        formData.append('pass2', $("#pass2").val());
+                
+                        $('#btn_regis').attr('disabled', 'disabled');
+                
+                        $.ajax({
+                
+                            type: 'POST',
+                
+                            url: 'system/changepass.php',
+                
+                            data: formData,
+                
+                            contentType: false,
+                
+                            processData: false,
+                
+                        }).done(function(res) {
+                
+                
+                
+                            result = res;
+                
+                            console.log(result);
+                
+                            if (res.status == "success") {
+                
+                                Swal.fire({
+                
+                                    icon: 'success',
+                
+                                    title: 'สำเร็จ',
+                
+                                    text: result.message
+                
+                                }).then(function() {
+                
+                                    window.location = "?page=profile";
+                
+                                });
+                
+                            }
+                
+                            if (res.status == "fail") {
+                
+                                Swal.fire({
+                
+                                    icon: 'error',
+                
+                                    title: 'ผิดพลาด',
+                
+                                    text: result.message
+                
+                                });
+                
+                                $('#btn_regis').removeAttr('disabled');
+                
+                            }
+                
+                        }).fail(function(jqXHR) {
+                
+                            console.log(jqXHR);
+                
+                            //   res = jqXHR.responseJSON;
+                
+                            Swal.fire({
+                
+                                icon: 'error',
+                
+                                title: 'เกิดข้อผิดพลาด',
+                
+                                text: res.message
+                
+                            })
+                
+                            //console.clear();
+                
+                            $('#btn_regis').removeAttr('disabled');
+                
+                        });
+                
+                    });
+                </script>
+                
+                <br>
+                <br>
+
+                    <div class="container-fluid border rounded">
+                    <h4 class="text-white mt-4 font-bold mb-0">ประวัติการสั่งซื้อ</h4>
+                    <h6 class="text-white font-bold">Buy History</h6>
+                    <div class="table-responsive">
+                    <table class="table  text-center ">
+                    <thead>
+                    <tr>
+                    <th scope="col" class="text-white font-bold">#</th>
+                    <th scope="col" class="text-white font-bold">ชื่อรายการ</th>
+                    <th scope="col" class="text-white font-bold">ของรางวัล</th>
+                    <th scope="col" class="text-white font-bold">วันที่</th>
+                    <th scope="col" class="text-white font-bold">ก็อป</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    </table>
+                    </div>
+                    <div class="d-flex align-items-center mb-3 justify-content-between">
+                    <div class="d-flex align-items-center">
+                    <a class="btn btn-light border  disabled" href="?page=profile&amp;subpage=buyhis&amp;page_no=0">
+                    &lt; หน้าที่แล้ว</a>
+                    <a class="m-0 text-muted ms-2" style="text-decoration: none;" href="?page=profile&amp;subpage=buyhis&amp;page_no=1">หน้าแรก</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                    <a class="m-0 text-muted me-2" style="text-decoration: none;" href="?page=profile&amp;subpage=buyhis&amp;page_no=0">หน้าสุดท้าย</a>
+                    <a class="btn btn-light border  " href="?page=profile&amp;subpage=buyhis&amp;page_no=2">หน้าถัดไป &gt;</a>
+                    </div>
+                    </div>
+                    <script>
+                            function copy(row) {
+                    
+                                var r = document.createRange();
+                    
+                    
+                    
+                                r.selectNode(document.getElementById(row));
+                    
+                                window.getSelection().removeAllRanges();
+                    
+                                window.getSelection().addRange(r);
+                    
+                                document.execCommand('copy');
+                    
+                                window.getSelection().removeAllRanges();
+                    
+                            }
+                        </script>
+                    </div> </div>
+
+                    
+                </div>
+                <br>
+                <center>
+                    <button id="btn_regis" class="btn btn-outline-danger" style="width: 50%;">Log-Out</button>
+                </center>
+                </div>
+                
+                </div>
+
+               
+
+        </body>
+        <footer class=" p-2 text-center text-secondary fw-bold " style="margin-top: 6em;">
+            <div class="d-lg-flex m-auto" style="width: fit-content;">
+            <p class="m-0 mb-2 mb-lg-0" style="font-size: 14px;">© 2024 XaloneStore 
+            </p>
+            <p class="d-lg-block d-none mb-2 mb-lg-0">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+            <p class="mb-2 mb-lg-0">&nbsp;Made by <a href="https://discord.gg/EjuCJf56tc" target="_blank" class="xdnz-badge ps-3 pe-3" style="text-decoration: none;">XaloneStore</a>&nbsp;</p>
+            <p class="d-lg-block d-none mb-2 mb-lg-0">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+            <a href="https://discord.gg/EjuCJf56tc" target="_blank" class="scam-badge ps-3 pe-3" style="text-decoration: none;">
+            <i class="bx bx-shield-minus"></i>&nbsp;&nbsp;รายงานสแกม / การโกง
+            </a>
+            </div>
+            </footer>
+</html>
